@@ -18,3 +18,52 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
+body {
+    color: white;
+}
+
+.main-navbar {
+    background-color: #373c3f;
+}
+
+#page-head {
+    float: left;
+}
+
+.nav {
+    display: none;
+}
+
+#nav-button {
+}
+
+#nav-button-image {
+}
+
+@media only screen and (max-width: 320px) {
+    #page-head {
+        padding: 11px;
+    }
+
+    .main-navbar {
+        height: 37px;
+    }
+
+    #nav-button {
+        width: 41px;
+        height: 37px;
+        float: right;
+    }
+
+    #nav-button {
+        padding: 11px;
+        background-color: #202529;
+        box-sizing: border-box;
+    }
+
+    #nav-button-image {
+        width: 19px;
+        height: 14px;
+    }
+}
