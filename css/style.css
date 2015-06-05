@@ -41,6 +41,46 @@ body {
 #nav-button-image {
 }
 
+.awesome_psd_banner {
+    background-color: #12aabf;
+}
+
+#blaz-ling {
+    float: left;
+    font-size: 0.5em;
+}
+
+.awesome_psd_banner .go-ahead-arrow {
+    float: right;
+}
+
+.rh_container {
+    border-bottom: 1px solid #9a1adf;
+}
+
+#rh_text {
+    border-top: 1px solid #514657;
+    color: #9988a8;
+    background-color: #27212d;
+}
+
+#rh_arrow_container {
+    background-color: #bc3184;
+}
+
+.video_placeholder {
+    background-color: #5a0fa0;
+}
+
+.footer_info_block {
+    padding: 38px 31px 50px 35px;
+    color: #515151;
+    background-color: #ebebeb;
+}
+#footer_info_head {
+    color: #0a8ca6;
+}
+
 @media only screen and (max-width: 320px) {
     #page-head {
         padding: 11px;
@@ -65,5 +105,85 @@ body {
     #nav-button-image {
         width: 19px;
         height: 14px;
+    }
+
+    .awesome_psd_banner {
+        height: 175px;
+    }
+
+    #awesome_psd_banner_content {
+        width: 230px;
+        font-size: 1.3em;
+    }
+
+    .awesome_psd_banner .go-ahead-arrow {
+        width: 10px;
+        height: 10px;
+    }
+
+    #awesome_psd_banner_content {
+        padding: 57px 0px 53px 23px;
+    }
+
+    .rh_container {
+        height: 74px;
+    }
+
+    .rh_container .go-ahead-arrow {
+        width: 10px;
+        height: 15px;
+    }
+
+    #rh_text {
+        height: 100%;
+        float: left;
+        width: 70%;
+        font-size: 0.5em;
+        padding: 35px 43px 31px 27px;
+        box-sizing: border-box;
+    }
+
+    #rh_arrow_container {
+        height: 100%;
+        float: right;
+        width: 30%;
+        padding: 30px;
+        border-top: 1px solid #f060e4;
+        box-sizing: border-box;
+    }
+
+    .video_placeholder {
+        height: 274px;
+        padding: 130px 150px;
+        box-sizing: border-box;
+    }
+
+    .video_placeholder .go-ahead-arrow {
+        width: 19px;
+        height: 30px;
+    }
+
+    .bridge_banner {
+        height: 277px;
+        width: 320px;
+    }
+
+    #bridge_image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .girl_banner {
+        height: 277px;
+        width: 320px;
+    }
+
+    #girl_image {
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer_info_item {
+        padding-top: 25px;
     }
 }
