@@ -15,7 +15,7 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    /*font: inherit;*/
+    font: inherit;
     vertical-align: baseline;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .blaz-ling {
     float: left;
-    font-size: 0.5em;
+    font-size: 10px;
 }
 
 .awesome_psd_banner .go-ahead-arrow {
@@ -123,28 +123,19 @@ body {
     }
 
     .rh_text {
-        height: 74px;
         float: left;
-        width: 250px;
         font-size: 12px;
-        /*padding-top: 8px;*/
-        /*padding: 35px 43px 31px 27px;*/
-        /*box-sizing: border-box;*/
+        padding: 30px 30px 30px 24px;
     }
 
     .rh_arrow_container {
-        /*height: 74px;*/
         float: right;
-        width: 70px;
-        padding: 30px 30px 30px 30px;
+        padding: 23px 30px 30px 30px;
         border-top: 1px solid #f060e4;
-        /*box-sizing: border-box;*/
     }
 
     .video_placeholder {
-        /*height: 274px;*/
-        padding: 130px 150px;
-        /*box-sizing: border-box;*/
+        padding: 130px 135px;
     }
 
     .video_placeholder .go-ahead-arrow {
