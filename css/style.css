@@ -33,6 +33,15 @@ body {
 
 .nav {
     display: none;
+    list-style: none;
+}
+
+.nav li {
+    display: block;
+}
+
+.nav li a {
+    text-decoration: none;
 }
 
 .awesome_psd_banner {
@@ -77,6 +86,11 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+    #menu-nav {
+        position: absolute;
+        top: 37px;
+    }
+
     .page-head {
         padding: 11px;
     }
