@@ -93,9 +93,6 @@ body, .nav li a {
         height: 15px;
         padding: 10px;
         background-color: #202529;
-    }
-
-    #nav-button {
         float: right;
     }
 
@@ -156,16 +153,16 @@ body, .nav li a {
 
     .rh_arrow_container {
         display: table-cell;
-        padding: 0 30px ;
+        padding: 0 30px;
         border-top: 1px solid #f060e4;
         vertical-align: middle;
     }
 
-    .slider_box {
-        display: block;
-        list-style: none;
-        text-decoration: none;
-    }
+    /*.slider_box {*/
+        /*display: block;*/
+        /*list-style: none;*/
+        /*text-decoration: none;*/
+    /*}*/
 
     .slider_box li:first-child {
         text-align: center;
@@ -200,5 +197,51 @@ body, .nav li a {
 
     .footer_info_head {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .page-head {
+        padding: 11px;
+        font-size: 30px;
+    }
+
+    #nav-button {
+        padding: 25px 27px 25px 27px;
+        background-color: #202529;
+        float: right;
+    }
+
+    .icon-menu {
+        display: block;
+        width: 31px;
+        height: 20px;
+        background: url("../images/menu.svg") no-repeat center;
+        background-size: 31px 20px;
+    }
+
+    #menu-nav {
+        display: none;
+    }
+
+    .nav li {
+        background-color: #373c3f;
+        border-bottom: 1px solid #515151;
+    }
+
+
+    .slider_box li:first-child {
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 553px;
+        width: 100%;
+    }
+
+    .slider_box li:first-child .icon-arrow {
+        display: inline-block;
+        background-size: 36px 57px;
+        width: 36px;
+        height: 57px;
     }
 }
