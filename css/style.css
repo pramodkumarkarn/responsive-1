@@ -31,10 +31,6 @@ body, .nav li a {
     background-color: #12aabf;
 }
 
-.blaz-ling {
-    font-size: 10px;
-}
-
 .awesome_psd_banner_content .go-ahead-arrow {
     float: right;
 }
@@ -54,12 +50,12 @@ body, .nav li a {
 }
 
 .footer_info_block {
-    padding: 38px 31px 50px 35px;
-    color: #515151;
+    color: #7c7c7c;
     background-color: #ebebeb;
 }
 
-.footer_info_head {
+.footer_info_head a {
+    text-decoration: none;
     color: #0a8ca6;
 }
 
@@ -68,6 +64,12 @@ body, .nav li a {
 }
 
 @media screen and (max-width: 320px) {
+    .blaz-ling {
+        display: block;
+        font-size: 10px;
+        padding-top: 14px
+    }
+
     .page-container {
         width: 320px;
     }
@@ -83,6 +85,7 @@ body, .nav li a {
 
     .page-head {
         padding: 11px;
+        font-size: 12px;
     }
 
     #nav-button {
@@ -125,13 +128,12 @@ body, .nav li a {
 
     .awesome_psd_banner {
         text-align: center;
-        height: 175px;
     }
 
     .awesome_psd_banner_content {
         text-align: left;
         width: 230px;
-        font-size: 17px;
+        font-size: 22px;
         padding: 57px 0 53px 23px;
     }
 
@@ -141,9 +143,10 @@ body, .nav li a {
 
     .rh_text {
         display: table-cell;
-        font-size: 12px;
-        padding: 30px 34px 28px 35px;
+        font-size: 11px;
+        padding: 30px 30px 30px 30px;
         vertical-align: middle;
+        width: 189px;
     }
 
     .rh_row {
@@ -153,7 +156,7 @@ body, .nav li a {
 
     .rh_arrow_container {
         display: table-cell;
-        padding: 24px 30px 30px 30px;
+        padding: 0 30px ;
         border-top: 1px solid #f060e4;
         vertical-align: middle;
     }
@@ -166,8 +169,10 @@ body, .nav li a {
 
     .slider_box li:first-child {
         text-align: center;
-        display: block;
+        display: inline-block;
         vertical-align: middle;
+        line-height: 277px;
+        width: 100%;
     }
 
     .slider_box li:first-child .icon-arrow {
@@ -177,20 +182,23 @@ body, .nav li a {
         height: 30px;
     }
 
-    .slider_box li {
-        height: 277px;
-    }
-
     .bridge_image,
     .girl_image {
         width: 320px;
     }
 
-    .video_placeholder {
-        padding: 130px 155px;
+    .footer_info_block {
+        padding: 40px 30px 50px 30px;
     }
 
     .footer_info_item {
+        font-family: Arial;
+        line-height: 20px;
+        font-size: 13px;
         padding-top: 25px;
+    }
+
+    .footer_info_head {
+        font-size: 18px;
     }
 }
