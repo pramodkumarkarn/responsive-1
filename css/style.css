@@ -17,7 +17,7 @@ ruby, section, summary, time, mark, audio, video {
     vertical-align: baseline;
 }
 
-body {
+body, .nav li a {
     color: white;
 }
 
@@ -39,7 +39,6 @@ body {
 }
 
 .nav li a {
-    color: white;
     text-decoration: none;
 }
 
@@ -84,6 +83,10 @@ body {
     color: #0a8ca6;
 }
 
+.clear-helper {
+    clear: both;
+}
+
 @media screen and (max-width: 320px) {
     .page-container {
         width: 320px;
@@ -102,22 +105,35 @@ body {
         padding: 11px;
     }
 
-    .main-navbar {
-        height: 37px;
-    }
+    /*.main-navbar {*/
+        /*height: 37px;*/
+    /*}*/
 
     #nav-button {
         width: 22px;
         height: 15px;
-        float: right;
         padding: 10px;
         background-color: #202529;
     }
 
-    .nav-button-image {
+    #nav-button,
+    .rh_arrow_container {
+        float: right;
+    }
+
+    .icon-menu {
+        display: block;
         width: 19px;
         height: 14px;
+        background: url("../images/menu.svg") no-repeat center;
+        background-size:  19px 14px;
     }
+    
+    
+    /*.nav-button-image {
+        width: 19px;
+        height: 14px;
+    }*/
 
     .awesome_psd_banner {
         height: 175px;
@@ -150,7 +166,6 @@ body {
     }
 
     .rh_arrow_container {
-        float: right;
         padding: 24px 30px 30px 30px;
         border-top: 1px solid #f060e4;
     }
