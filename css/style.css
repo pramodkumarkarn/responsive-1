@@ -7,11 +7,28 @@ body, .nav li a {
     color: white;
 }
 
+.clear-helper {
+    clear: both;
+}
+
+.icon-arrow {
+    display: block;
+    background: url("../images/arrow.svg") no-repeat center;
+}
+
+.icon-menu {
+    display: block;
+    background: url("../images/menu.svg") no-repeat center;
+}
+
+/*-------------- Rules for header/menu ---------------*/
 .main-navbar {
     background-color: #373c3f;
 }
 
 .page-head {
+    padding: 3% 0 2% 6%;
+    font-size: 6vw;
     float: left;
 }
 
@@ -27,38 +44,97 @@ body, .nav li a {
     text-decoration: none;
 }
 
+.blaz-link {
+    display: block;
+    color: #b5d7e1;
+    font-size: 4vw;
+    padding-top: 10px;
+}
+/*!-------- End rules for header/menu ------------!*/
+
+/*-------------- Rules for awesome psd banner ---------------*/
 .awesome_psd_banner {
     text-align: center;
     background-color: #12aabf;
 }
 
-.awesome_psd_banner_content {
-    text-align: left;
-}
-
-.awesome_psd_banner_content .go-ahead-arrow {
+.awesome_psd_banner_content .icon-arrow {
     float: right;
 }
 
+.awesome_psd_banner_content {
+    text-align: left;
+    width: 70%;
+    font-size: 5.9vw;
+    padding: 18% 8% 18% 8%;
+}
+/*!-------- End rules for awesome psd banner ------------!*/
+
+/*-------------- Rules for Robin Hood block ---------------*/
+.rh_container {
+    display: table;
+    width: 100%;
+}
+
 .rh_text {
+    font-size: 3vw;
+    padding: 10% 16% 11% 10%;
+    width: 75%;
     border-top: 1px solid #514657;
     color: #9988a8;
     background-color: #27212d;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .rh_arrow_container {
     background-color: #bc3184;
+    display: table-cell;
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+    border-top: 1px solid #f060e4;
 }
 
-.slider_box li:first-child {
-    background-color: #5a0fa0;
+.rh_container .icon-arrow {
+    display: inline-block;
 }
+/* !-------- End rules for Robin Hood block ------------! */
 
+/*-------------- Rules for slider box ---------------*/
 .slider_box li {
     display: block;
 }
 
+.slider_box li:first-child {
+    background-color: #5a0fa0;
+    text-align: center;
+    display: inline-block;
+    padding: 35% 0;
+    width: 100%;
+}
+
+.slider_box li:first-child .icon-arrow {
+    display: inline-block;
+}
+
+.slider_box li img {
+    vertical-align: middle;
+}
+
+.bridge_image,
+.girl_image {
+    width: 100%;
+}
+/* !-------- End rules for slider box ------------! */
+
+/*-------------- Rules for footer ---------------*/
+.footer_info_head {
+    font-size: 5vw;
+}
+
 .footer_info_block {
+    padding: 10% 10% 30% 12%;
     color: #7c7c7c;
     background-color: #ebebeb;
 }
@@ -68,59 +144,15 @@ body, .nav li a {
     color: #0a8ca6;
 }
 
-.clear-helper {
-    clear: both;
-}
-
-.icon-arrow {
-    display: block;
-    background: url("../images/arrow.svg") no-repeat center;
-}
-
-.icon-menu {
-    display: block;
-    background: url("../images/menu.svg") no-repeat center;
-}
-
-.blaz-link {
-    display: block;
-    color: #b5d7e1;
-}
-
-.rh_text {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.rh_arrow_container {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .footer_info_item {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 7vw;
+    font-size: 4vw;
+    padding-top: 8%;
 }
+/* !-------- End rules for footer ------------! */
 
 @media screen and (max-width: 640px) {
-    .blaz-link {
-        font-size: 4vw;
-        padding-top: 10px;
-    }
-
-    .page-head {
-        /*padding: 17px 11px 11px 35px;*/
-        padding: 3% 0 2% 6%;
-        /*font-size: 30px;*/
-        font-size: 6vw;
-    }
-
-    #nav-button {
-        /*padding: 25px 27px 25px 27px;*/
-        padding: 4% 4% 5% 4%;
-        background-color: #202529;
-        float: right;
-    }
-
     .icon-menu {
         width: 31px;
         height: 20px;
@@ -129,6 +161,12 @@ body, .nav li a {
 
     #menu-nav {
         display: none;
+    }
+
+    #nav-button {
+        padding: 4% 4% 5% 4%;
+        background-color: #202529;
+        float: right;
     }
 
     .nav li {
@@ -140,124 +178,41 @@ body, .nav li a {
         background-size: 20px 21px;
         width: 20px;
         height: 21px;
-        /*background-size: 1% 1%;*/
-        /*width: 1%;*/
-        /*height: 1%;*/
-        float: right;
-    }
-
-    .awesome_psd_banner_content {
-        width: 70%;
-        font-size: 5.9vw;
-        /*padding: 115px 50px 105px 50px;*/
-        padding: 18% 8% 18% 8%;
     }
 
     .rh_container .icon-arrow {
-        display: inline-block;
         background-size: 25px 32px;
         width: 16px;
         height: 26px;
     }
 
-    .rh_container {
-        display: table;
-        width: 100%;
-    }
-
-    .rh_text {
-        /*font-size: 22px;*/
-        font-size: 3vw;
-        /* padding: 57px 85px 59px 48px; */
-        padding: 10% 16% 11% 10%;
-        /* width: 403px; */
-        /*width: 70%;*/
-    }
-
-    .rh_arrow_container {
-        /*width: 30%;*/
-        /* padding: 0 63px; */
-        padding: 0 9%;
-        border-top: 1px solid #f060e4;
-    }
-
-    .slider_box li:first-child {
-        text-align: center;
-        display: inline-block;
-        padding: 35% 0;
-        width: 100%;
-    }
-
     .slider_box li:first-child .icon-arrow {
-        display: inline-block;
         background-size: 56px 63px;
         width: 36px;
         height: 57px;
     }
-
-    .slider_box li img {
-        vertical-align: middle;
-    }
-
-    .bridge_image,
-    .girl_image {
-        width: 100%;
-    }
-
-    .footer_info_block {
-        /*padding: 68px 75px 100px 75px;*/
-        padding: 10% 10% 30% 12%;
-    }
-
-    .footer_info_item {
-        /*line-height: 45px;*/
-        line-height: 7vw;
-        font-size: 4vw;
-        /*padding-top: 37px;*/
-        /*padding-top: 6vw;*/
-        padding-top: 8%;
-    }
-
-    .footer_info_head {
-        font-size: 5vw;
-    }
 }
 
 @media screen and (max-width: 320px) {
-    .blaz-link {
-        font-size: 3vw;
-        padding-top: 10px;
+    .icon-menu {
+        width: 19px;
+        height: 14px;
+        background-size: 19px 14px;
     }
 
     #menu-nav {
         display: none;
     }
 
-    .nav li {
-        background-color: #373c3f;
-        border-bottom: 1px solid #515151;
-    }
-
-    .page-head {
-        /*padding: 11px;*/
-        /*font-size: 12px;*/
-        padding: 3% 0 2% 6%;
-        font-size: 6vw;
-    }
-
     #nav-button {
-        width: 22px;
-        height: 15px;
         padding: 4% 4% 5% 4%;
-        /*padding: 10px;*/
         background-color: #202529;
         float: right;
     }
 
-    .icon-menu {
-        width: 19px;
-        height: 14px;
-        background-size: 19px 14px;
+    .nav li {
+        background-color: #373c3f;
+        border-bottom: 1px solid #515151;
     }
 
     .awesome_psd_banner_content .icon-arrow {
@@ -267,72 +222,15 @@ body, .nav li a {
         float: right;
     }
 
-    .awesome_psd_banner_content {
-        text-align: left;
-        width: 70%;
-        font-size: 5.9vw;
-        /*padding: 57px 0 53px 23px;*/
-        padding: 18% 8% 18% 8%;
-    }
-
     .rh_container .icon-arrow {
-        display: inline-block;
         background-size: 10px 15px;
         width: 10px;
         height: 15px;
     }
 
-    .rh_text {
-        font-size: 11px;
-        /*padding: 30px 30px 30px 30px;*/
-        padding: 1% 1% 1% 1%;
-        width: 189px;
-    }
-
-    .rh_arrow_container {
-        /*padding: 0 30px;*/
-        padding: 0 1%;
-        border-top: 1px solid #f060e4;
-    }
-
-    .slider_box li:first-child {
-        text-align: center;
-        display: inline-block;
-        padding: 35% 0;
-        width: 100%;
-    }
-
     .slider_box li:first-child .icon-arrow {
-        display: inline-block;
         background-size: 19px 30px;
         width: 19px;
         height: 30px;
-    }
-
-    .slider_box li img {
-        vertical-align: middle;
-    }
-
-    .bridge_image,
-    .girl_image {
-        width: 100%;
-    }
-
-    .footer_info_block {
-        /*padding: 40px 30px 50px 30px;*/
-        padding: 10% 10% 30% 12%;
-    }
-
-    .footer_info_item {
-        /*line-height: 20px;*/
-        line-height: 7vw;
-        font-size: 4vw;
-        /*padding-top: 25px;*/
-        /*padding-top: 6vw;*/
-        padding-top: 8%;
-    }
-
-    .footer_info_head {
-        font-size: 5vw;
     }
 }
