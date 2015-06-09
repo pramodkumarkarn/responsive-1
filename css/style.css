@@ -49,6 +49,10 @@ body, .nav li a {
     background-color: #5a0fa0;
 }
 
+.slider_box li {
+    display: block;
+}
+
 .footer_info_block {
     color: #7c7c7c;
     background-color: #ebebeb;
@@ -68,9 +72,19 @@ body, .nav li a {
     background: url("../images/arrow.svg") no-repeat center;
 }
 
+.blaz-ling {
+    display: block;
+    color: #b5d7e1;
+}
+
 @media screen and (max-width: 640px) {
+    .blaz-ling {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
     .page-head {
-        padding: 11px;
+        padding: 17px 11px 11px 35px;
         font-size: 30px;
     }
 
@@ -85,7 +99,7 @@ body, .nav li a {
         width: 31px;
         height: 20px;
         background: url("../images/menu.svg") no-repeat center;
-        background-size: 31px 20px;
+        background-size: 27px 31px;
     }
 
     #menu-nav {
@@ -97,6 +111,54 @@ body, .nav li a {
         border-bottom: 1px solid #515151;
     }
 
+    .awesome_psd_banner_content .icon-arrow {
+        background-size: 10px 10px;
+        width: 10px;
+        height: 10px;
+        float: right;
+    }
+
+    .awesome_psd_banner {
+        text-align: center;
+    }
+
+    .awesome_psd_banner_content {
+        text-align: left;
+        width: 455px;
+        font-size: 36px;
+        padding: 115px 50px 105px 50px;
+    }
+
+    .rh_container .icon-arrow {
+        display: inline-block;
+        background-size: 25px 32px;
+        width: 16px;
+        height: 26px;
+    }
+
+    .rh_container {
+        display: table;
+    }
+
+    .rh_text {
+        display: table-cell;
+        font-size: 22px;
+        padding: 60px 50px 60px 50px;
+        vertical-align: middle;
+        width: 403px;
+    }
+
+    .rh_row {
+        display: table-row;
+        text-align: center;
+    }
+
+    .rh_arrow_container {
+        display: table-cell;
+        padding: 0 60px;
+        border-top: 1px solid #f060e4;
+        vertical-align: middle;
+    }
 
     .slider_box li:first-child {
         text-align: center;
@@ -108,24 +170,37 @@ body, .nav li a {
 
     .slider_box li:first-child .icon-arrow {
         display: inline-block;
-        background-size: 36px 57px;
+        background-size: 56px 63px;
         width: 36px;
         height: 57px;
+    }
+
+    .slider_box li img {
+        vertical-align: middle;
     }
 
     .bridge_image,
     .girl_image {
         width: 640px;
     }
+
+    .footer_info_block {
+        padding: 57px 75px 100px 75px;
+    }
+
+    .footer_info_item {
+        font-family: Arial;
+        line-height: 45px;
+        font-size: 25px;
+        padding-top: 37px;
+    }
+
+    .footer_info_head {
+        font-size: 33px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    .blaz-ling {
-        display: block;
-        font-size: 10px;
-        padding-top: 14px
-    }
-
     .page-container {
         width: 320px;
     }
@@ -167,13 +242,6 @@ body, .nav li a {
         float: right;
     }
 
-    .rh_container .icon-arrow {
-        display: inline-block;
-        background-size: 10px 15px;
-        width: 10px;
-        height: 15px;
-    }
-
     .awesome_psd_banner {
         text-align: center;
     }
@@ -183,6 +251,13 @@ body, .nav li a {
         width: 230px;
         font-size: 22px;
         padding: 57px 0 53px 23px;
+    }
+
+    .rh_container .icon-arrow {
+        display: inline-block;
+        background-size: 10px 15px;
+        width: 10px;
+        height: 15px;
     }
 
     .rh_container {
@@ -209,12 +284,6 @@ body, .nav li a {
         vertical-align: middle;
     }
 
-    /*.slider_box {*/
-    /*display: block;*/
-    /*list-style: none;*/
-    /*text-decoration: none;*/
-    /*}*/
-
     .slider_box li:first-child {
         text-align: center;
         display: inline-block;
@@ -228,6 +297,10 @@ body, .nav li a {
         background-size: 19px 30px;
         width: 19px;
         height: 30px;
+    }
+
+    .slider_box li img {
+        vertical-align: middle;
     }
 
     .bridge_image,
