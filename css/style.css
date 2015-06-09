@@ -109,9 +109,6 @@ body, .nav li a {
 .slider_box li:first-child {
     background-color: #5a0fa0;
     text-align: center;
-    display: inline-block;
-    padding: 35% 0;
-    width: 100%;
 }
 
 .slider_box li:first-child .icon-arrow {
@@ -120,11 +117,6 @@ body, .nav li a {
 
 .slider_box li img {
     vertical-align: middle;
-}
-
-.bridge_image,
-.girl_image {
-    width: 100%;
 }
 /* !-------- End rules for slider box ------------! */
 
@@ -151,6 +143,34 @@ body, .nav li a {
     padding-top: 8%;
 }
 /* !-------- End rules for footer ------------! */
+
+@media screen and (max-width: 980px) {
+    /*.slider_box li {*/
+        /*display: table-cell;*/
+        /*float: left;*/
+    /*}*/
+
+    #menu-nav {
+        display: none;
+    }
+
+    .slider_box li:first-child {
+        /*padding: 35% 0;*/
+        width: 33.3%;
+    }
+
+    .slider_box {
+        display: table;
+        height: 283px;
+    }
+    .slider_box li {
+        display: table-cell;
+    }
+    .slider_box li img {
+        /*width: 33.3%;*/
+        height: 50%;
+    }
+}
 
 @media screen and (max-width: 640px) {
     .icon-menu {
@@ -190,6 +210,17 @@ body, .nav li a {
         background-size: 56px 63px;
         width: 36px;
         height: 57px;
+    }
+
+    .bridge_image,
+    .girl_image {
+        width: 100%;
+    }
+
+    .slider_box li:first-child {
+        padding: 35% 0;
+        width: 100%;
+        display: inline-block;
     }
 }
 
@@ -232,5 +263,16 @@ body, .nav li a {
         background-size: 19px 30px;
         width: 19px;
         height: 30px;
+    }
+
+    .slider_box li:first-child {
+        padding: 35% 0;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .bridge_image,
+    .girl_image {
+        width: 100%;
     }
 }
