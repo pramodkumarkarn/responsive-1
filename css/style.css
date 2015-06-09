@@ -28,7 +28,12 @@ body, .nav li a {
 }
 
 .awesome_psd_banner {
+    text-align: center;
     background-color: #12aabf;
+}
+
+.awesome_psd_banner_content {
+    text-align: left;
 }
 
 .awesome_psd_banner_content .go-ahead-arrow {
@@ -72,13 +77,36 @@ body, .nav li a {
     background: url("../images/arrow.svg") no-repeat center;
 }
 
-.blaz-ling {
+.icon-menu {
+    display: block;
+    background: url("../images/menu.svg") no-repeat center;
+}
+
+.blaz-link {
     display: block;
     color: #b5d7e1;
 }
 
+.rh_text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rh_arrow_container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer_info_item {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media screen and (max-width: 640px) {
-    .blaz-ling {
+    .page-container {
+        width: 640px;
+    }
+
+    .blaz-link {
         font-size: 22px;
         padding-top: 10px;
     }
@@ -95,10 +123,8 @@ body, .nav li a {
     }
 
     .icon-menu {
-        display: block;
         width: 31px;
         height: 20px;
-        background: url("../images/menu.svg") no-repeat center;
         background-size: 27px 31px;
     }
 
@@ -118,12 +144,7 @@ body, .nav li a {
         float: right;
     }
 
-    .awesome_psd_banner {
-        text-align: center;
-    }
-
     .awesome_psd_banner_content {
-        text-align: left;
         width: 455px;
         font-size: 44px;
         padding: 115px 50px 105px 50px;
@@ -136,28 +157,15 @@ body, .nav li a {
         height: 26px;
     }
 
-    .rh_container {
-        display: table;
-    }
-
     .rh_text {
-        display: table-cell;
         font-size: 22px;
         padding: 57px 85px 59px 48px;
-        vertical-align: middle;
         width: 403px;
     }
 
-    .rh_row {
-        display: table-row;
-        text-align: center;
-    }
-
     .rh_arrow_container {
-        display: table-cell;
         padding: 0 63px;
         border-top: 1px solid #f060e4;
-        vertical-align: middle;
     }
 
     .slider_box li:first-child {
@@ -185,11 +193,10 @@ body, .nav li a {
     }
 
     .footer_info_block {
-        padding: 57px 75px 100px 75px;
+        padding: 68px 75px 100px 75px;
     }
 
     .footer_info_item {
-        font-family: Arial;
         line-height: 45px;
         font-size: 25px;
         padding-top: 37px;
@@ -228,10 +235,8 @@ body, .nav li a {
     }
 
     .icon-menu {
-        display: block;
         width: 19px;
         height: 14px;
-        background: url("../images/menu.svg") no-repeat center;
         background-size: 19px 14px;
     }
 
@@ -240,10 +245,6 @@ body, .nav li a {
         width: 10px;
         height: 10px;
         float: right;
-    }
-
-    .awesome_psd_banner {
-        text-align: center;
     }
 
     .awesome_psd_banner_content {
@@ -260,28 +261,15 @@ body, .nav li a {
         height: 15px;
     }
 
-    .rh_container {
-        display: table;
-    }
-
     .rh_text {
-        display: table-cell;
         font-size: 11px;
         padding: 30px 30px 30px 30px;
-        vertical-align: middle;
         width: 189px;
     }
 
-    .rh_row {
-        display: table-row;
-        text-align: center;
-    }
-
     .rh_arrow_container {
-        display: table-cell;
         padding: 0 30px;
         border-top: 1px solid #f060e4;
-        vertical-align: middle;
     }
 
     .slider_box li:first-child {
@@ -313,7 +301,6 @@ body, .nav li a {
     }
 
     .footer_info_item {
-        font-family: Arial;
         line-height: 20px;
         font-size: 13px;
         padding-top: 25px;
