@@ -63,6 +63,62 @@ body, .nav li a {
     clear: both;
 }
 
+.icon-arrow {
+    display: block;
+    background: url("../images/arrow.svg") no-repeat center;
+}
+
+@media screen and (max-width: 640px) {
+    .page-head {
+        padding: 11px;
+        font-size: 30px;
+    }
+
+    #nav-button {
+        padding: 25px 27px 25px 27px;
+        background-color: #202529;
+        float: right;
+    }
+
+    .icon-menu {
+        display: block;
+        width: 31px;
+        height: 20px;
+        background: url("../images/menu.svg") no-repeat center;
+        background-size: 31px 20px;
+    }
+
+    #menu-nav {
+        display: none;
+    }
+
+    .nav li {
+        background-color: #373c3f;
+        border-bottom: 1px solid #515151;
+    }
+
+
+    .slider_box li:first-child {
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 553px;
+        width: 100%;
+    }
+
+    .slider_box li:first-child .icon-arrow {
+        display: inline-block;
+        background-size: 36px 57px;
+        width: 36px;
+        height: 57px;
+    }
+
+    .bridge_image,
+    .girl_image {
+        width: 640px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .blaz-ling {
         display: block;
@@ -102,11 +158,6 @@ body, .nav li a {
         height: 14px;
         background: url("../images/menu.svg") no-repeat center;
         background-size: 19px 14px;
-    }
-
-    .icon-arrow {
-        display: block;
-        background: url("../images/arrow.svg") no-repeat center;
     }
 
     .awesome_psd_banner_content .icon-arrow {
@@ -159,9 +210,9 @@ body, .nav li a {
     }
 
     /*.slider_box {*/
-        /*display: block;*/
-        /*list-style: none;*/
-        /*text-decoration: none;*/
+    /*display: block;*/
+    /*list-style: none;*/
+    /*text-decoration: none;*/
     /*}*/
 
     .slider_box li:first-child {
@@ -197,51 +248,5 @@ body, .nav li a {
 
     .footer_info_head {
         font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .page-head {
-        padding: 11px;
-        font-size: 30px;
-    }
-
-    #nav-button {
-        padding: 25px 27px 25px 27px;
-        background-color: #202529;
-        float: right;
-    }
-
-    .icon-menu {
-        display: block;
-        width: 31px;
-        height: 20px;
-        background: url("../images/menu.svg") no-repeat center;
-        background-size: 31px 20px;
-    }
-
-    #menu-nav {
-        display: none;
-    }
-
-    .nav li {
-        background-color: #373c3f;
-        border-bottom: 1px solid #515151;
-    }
-
-
-    .slider_box li:first-child {
-        text-align: center;
-        display: inline-block;
-        vertical-align: middle;
-        line-height: 553px;
-        width: 100%;
-    }
-
-    .slider_box li:first-child .icon-arrow {
-        display: inline-block;
-        background-size: 36px 57px;
-        width: 36px;
-        height: 57px;
     }
 }
