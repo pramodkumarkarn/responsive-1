@@ -210,7 +210,7 @@ body, .nav li a {
         font-size: 15px;
         line-height: 3vw;
         width: 100%;
-        padding: 5% 0 0 0;
+        padding: 7% 0 0 0;
     }
 
     .footer_info_block {
@@ -259,27 +259,18 @@ body, .nav li a {
     }
 
     .awesome_psd_banner_content {
-        padding: 20% 8% 17% 9%;
+        padding: 18% 8% 16% 8%;
     }
 
     .rh_text {
         font-size: 3vw;
-        padding: 11% 0 11% 9%;
-        width: 82%;
+        padding: 11% 0 10% 9%;
+        width: 79%;
         border-top: 1px solid #514657;
         color: #9988a8;
         background-color: #27212d;
         display: table-cell;
         vertical-align: middle;
-    }
-
-    .rh_arrow_container {
-        background-color: #bc3184;
-        display: table-cell;
-        vertical-align: middle;
-        width: 18%;
-        text-align: center;
-        border-top: 1px solid #f060e4;
     }
 
     .rh_container .icon-arrow {
@@ -338,6 +329,7 @@ body, .nav li a {
 
     .navigation_label {
         display: block;
+        font-size: 4vw;
     }
 
     .icon-menu {
@@ -372,13 +364,24 @@ body, .nav li a {
     }
 
     .awesome_psd_banner_content {
-        padding: 18% 8% 13% 8%;
+        padding: 17% 8% 16% 8%;
     }
 
     .rh_container .icon-arrow {
         background-size: 25px 32px;
         width: 16px;
         height: 26px;
+    }
+
+    .rh_text {
+        font-size: 3vw;
+        padding: 10% 0 10% 9%;
+        width: 80%;
+        border-top: 1px solid #514657;
+        color: #9988a8;
+        background-color: #27212d;
+        display: table-cell;
+        vertical-align: middle;
     }
 
     .slider_box li:first-child .icon-arrow {
@@ -443,7 +446,7 @@ body, .nav li a {
     }
 
     .awesome_psd_banner_content {
-        padding: 18% 8% 16% 8%;
+        padding: 17% 8% 15% 9%;
     }
 
     #menu-nav {
@@ -478,6 +481,17 @@ body, .nav li a {
         height: 15px;
     }
 
+    .rh_text {
+        font-size: 3vw;
+        padding: 11% 0 10% 9%;
+        width: 82%;
+        border-top: 1px solid #514657;
+        color: #9988a8;
+        background-color: #27212d;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
     .slider_box li:first-child .icon-arrow {
         background-size: 19px 30px;
         width: 19px;
@@ -491,13 +505,13 @@ body, .nav li a {
     }
 
     .slider_box li:first-child {
-        padding: 35% 0;
+        padding: 40% 0;
         width: 100%;
         display: inline-block;
     }
 
     .footer_info_head {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .footer_info_block {
@@ -508,6 +522,7 @@ body, .nav li a {
         line-height: 7vw;
         font-size: 4vw;
         padding-top: 8%;
+        font-weight: bold;
     }
 }
 
