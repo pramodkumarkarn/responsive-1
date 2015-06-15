@@ -27,7 +27,7 @@ body, .nav li a {
 }
 
 /*-------------- Rules for header/menu ---------------*/
-#menu-nav {
+.menu-nav {
     font-size: 4vw;
 }
 
@@ -70,18 +70,13 @@ body, .nav li a {
 /*!-------- End rules for header/menu ------------!*/
 
 /*-------------- Rules for awesome psd banner ---------------*/
-.awesome-psd-banner {
-    text-align: center;
-    background-color: #12aabf;
-}
-
 .awesome-psd-banner-content .icon-arrow {
     float: right;
 }
 
 .awesome-psd-banner-content {
-    text-align: left;
-    width: 70%;
+    background-color: #12aabf;
+    width: 84%;
     font-size: 5.9vw;
     padding: 18% 8% 18% 8%;
 }
@@ -126,6 +121,10 @@ body, .nav li a {
 /* !-------- End rules for slider box ------------! */
 
 /*-------------- Rules for footer ---------------*/
+.footer-info-content {
+    list-style: none;
+}
+
 .footer-info-block {
     color: #7c7c7c;
     background-color: #ebebeb;
@@ -137,15 +136,15 @@ body, .nav li a {
 }
 
 .footer-info-item {
-    display: block;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* !-------- End rules for footer ------------! */
 
 @media screen and (max-width: 1024px) {
     .navigation-label,
-    #menu-nav,
-    .page-head {
+    .menu-nav,
+    .page-head,
+    .visible-menu {
         display: none;
     }
 
@@ -195,17 +194,14 @@ body, .nav li a {
         font-size: 3vw;
     }
 
-    .footer-text-block {
-        float: left;
-        width: 45%;
-        padding: 0 5% 0 0;
+    .footer-info-item {
+        width: 40%;
+        padding: 5% 0 0 10%;
+        display: inline-block;
     }
 
-    .footer-info-item {
-        font-size: 15px;
-        line-height: 3vw;
-        width: 100%;
-        padding: 7% 0 0 0;
+    .footer-info-item:first-child {
+        padding-left: 0;
     }
 
     .footer-info-block {
@@ -258,9 +254,16 @@ body, .nav li a {
         background-size: 27px 31px;
     }
 
-    #menu-nav,
+    .menu-nav,
     .menu {
         display: none;
+    }
+
+    .visible-menu,
+    .slider-box,
+    .slider-box li,
+    .footer-info-item {
+        display: block;
     }
 
     #nav-button {
@@ -297,12 +300,7 @@ body, .nav li a {
         width: 80%;
     }
 
-    .slider-box {
-        display: block;
-    }
-
     .slider-box li {
-        display: block;
         width: auto;
         height: auto;
     }
@@ -311,15 +309,16 @@ body, .nav li a {
         font-size: 5vw;
     }
 
-    .footer-info-block {
-        padding: 10% 10% 30% 12%;
-    }
-
     .footer-info-item {
+        width: 100%;
         line-height: 7vw;
         font-size: 4vw;
-        padding-top: 8%;
         float: none;
+        padding: 10% 0 0 0;
+    }
+
+    .footer-info-block {
+        padding: 10% 10% 30% 12%;
     }
 }
 
@@ -336,7 +335,7 @@ body, .nav li a {
     }
 
     .awesome-psd-banner-content {
-        padding: 17% 8% 15% 9%;
+        padding: 17% 8% 15% 8%;
     }
 
     .awesome-psd-banner-content .icon-arrow {
@@ -369,7 +368,7 @@ body, .nav li a {
     }
 
     .navigation-label,
-    #menu-nav,
+    .menu-nav,
     .page-head {
         display: none;
     }
@@ -392,9 +391,8 @@ body, .nav li a {
     }
 
     .awesome-psd-banner-content {
-        padding: 187px 0 156px 82px;
-        font-size: 68px;
-        width: 722px;
+        padding: 187px 82px 156px 82px;
+        font-size: 65px;
     }
 
     .blaz-link {
@@ -422,16 +420,14 @@ body, .nav li a {
         font-size: 33px;
     }
 
-    .footer-text-block {
-        float: left;
-        width: 45%;
-        padding: 0 37px 0 0;
+    .footer-info-item {
+        width: 40%;
+        padding: 40px 0 0 100px;
+        display: inline-block;
     }
 
-    .footer-info-item {
-        font-size: 16px;
-        line-height: 25px;
-        padding: 18px 0 0 0;
+    .footer-info-item:first-child {
+        padding-left: 0;
     }
 
     .footer-info-block {
