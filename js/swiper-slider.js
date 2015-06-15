@@ -1,5 +1,9 @@
 var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3
+    slidesPerView: 3,
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    autoplay: 2500,
+    autoplayDisableOnInteraction: false
 });
 
 function sliderResize(slider) {
