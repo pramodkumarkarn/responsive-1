@@ -35,7 +35,7 @@ body, .nav li a {
     float: left;
 }
 
-.navigation_label {
+.navigation-label {
     font-size: 6vw;
 }
 
@@ -63,35 +63,34 @@ body, .nav li a {
     font-size: 4vw;
     padding-top: 6%;
 }
-
 /*!-------- End rules for header/menu ------------!*/
 
 /*-------------- Rules for awesome psd banner ---------------*/
-.awesome_psd_banner {
+.awesome-psd-banner {
     text-align: center;
     background-color: #12aabf;
 }
 
-.awesome_psd_banner_content .icon-arrow {
+.awesome-psd-banner-content .icon-arrow {
     float: right;
 }
 
-.awesome_psd_banner_content {
+.awesome-psd-banner-content {
     text-align: left;
     width: 70%;
     font-size: 5.9vw;
     padding: 18% 8% 18% 8%;
 }
-
 /*!-------- End rules for awesome psd banner ------------!*/
 
 /*-------------- Rules for Robin Hood block ---------------*/
-.rh_container {
+.rh-container {
     display: table;
     width: 100%;
+    background-color: #bc3184;
 }
 
-.rh_text {
+.rh-text {
     font-size: 3vw;
     padding: 9% 16% 11% 10%;
     width: 78%;
@@ -101,7 +100,7 @@ body, .nav li a {
     display: table-cell;
 }
 
-.rh_arrow_container {
+.rh-arrow-container {
     background-color: #bc3184;
     display: table-cell;
     vertical-align: middle;
@@ -110,41 +109,33 @@ body, .nav li a {
     border-top: 1px solid #f060e4;
 }
 
-.rh_container .icon-arrow {
+.rh-container .icon-arrow {
     display: inline-block;
 }
-
 /* !-------- End rules for Robin Hood block ------------! */
 
 /*-------------- Rules for slider box ---------------*/
-.slider_box li:first-child {
-    background-color: #5a0fa0;
-    text-align: center;
-}
-
-.slider_box li img {
+.slider-box li img {
     width: 100%;
     vertical-align: middle;
 }
-
 /* !-------- End rules for slider box ------------! */
 
 /*-------------- Rules for footer ---------------*/
-.footer_info_block {
+.footer-info-block {
     color: #7c7c7c;
     background-color: #ebebeb;
 }
 
-.footer_info_head a {
+.footer-info-head a {
     text-decoration: none;
     color: #0a8ca6;
 }
 
-.footer_info_item {
+.footer-info-item {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /* !-------- End rules for footer ------------! */
 
 @media screen and (max-width: 1024px) {
@@ -153,7 +144,7 @@ body, .nav li a {
         float: left;
     }
 
-    .navigation_label {
+    .navigation-label {
         display: none;
     }
 
@@ -172,60 +163,60 @@ body, .nav li a {
         margin-left: 15px;
     }
 
-    .awesome_psd_banner_content .icon-arrow {
+    .awesome-psd-banner-content .icon-arrow {
         background-size: 29px 26px;
         width: 32px;
         height: 30px;
     }
 
-    .awesome_psd_banner_content {
+    .awesome-psd-banner-content {
         padding: 19% 8% 16% 8%;
     }
 
-    .rh_container .icon-arrow {
+    .rh-container .icon-arrow {
         background-size: 35px 35px;
         width: 35px;
         height: 35px;
     }
 
-    .slider_box {
+    .slider-box {
         display: table;
     }
 
-    .slider_box li {
+    .slider-box li {
         display: table-cell;
         width: 20%;
     }
 
-    .footer_info_head {
+    .footer-info-head {
         font-size: 3vw;
     }
 
-    .footer_text_block {
+    .footer-text-block {
         float: left;
         width: 45%;
         padding: 0 5% 0 0;
     }
 
-    .footer_info_item {
+    .footer-info-item {
         font-size: 15px;
         line-height: 3vw;
         width: 100%;
         padding: 7% 0 0 0;
     }
 
-    .footer_info_block {
+    .footer-info-block {
         padding: 5% 0 15% 8%;
     }
 }
 
 @media screen and (max-width: 980px) {
-    .slider_box li {
+    .slider-box li {
         display: table-cell;
         width: 20%;
     }
 
-    .navigation_label {
+    .navigation-label {
         display: none;
     }
 
@@ -249,49 +240,49 @@ body, .nav li a {
         margin-left: 15px;
     }
 
-    .slider_box {
+    .slider-box {
         display: table;
     }
 
-    .awesome_psd_banner_content .icon-arrow {
+    .awesome-psd-banner-content .icon-arrow {
         background-size: 25px 30px;
         width: 22px;
         height: 30px;
     }
 
-    .awesome_psd_banner_content {
+    .awesome-psd-banner-content {
         padding: 18% 8% 16% 8%;
     }
 
-    .rh_text {
+    .rh-text {
         font-size: 3vw;
         padding: 11% 0 10% 9%;
         width: 79%;
     }
 
-    .rh_container .icon-arrow {
+    .rh-container .icon-arrow {
         background-size: 35px 35px;
         width: 35px;
         height: 35px;
     }
 
-    .footer_info_head {
+    .footer-info-head {
         font-size: 3vw;
     }
 
-    .footer_text_block {
+    .footer-text-block {
         float: left;
         width: 45%;
         padding: 0 5% 0 0;
     }
 
-    .footer_info_item {
+    .footer-info-item {
         font-size: 15px;
         line-height: 3vw;
         width: 100%;
     }
 
-    .footer_info_block {
+    .footer-info-block {
         padding: 6% 0 15% 8%;
     }
 }
@@ -303,12 +294,12 @@ body, .nav li a {
         float: left;
     }
 
-    .footer_text_block {
+    .footer-text-block {
         float: none;
         width: 100%;
     }
 
-    .navigation_label {
+    .navigation-label {
         display: block;
         font-size: 4vw;
     }
@@ -335,47 +326,47 @@ body, .nav li a {
         border-top: 1px solid #515151;
     }
 
-    .awesome_psd_banner_content .icon-arrow {
+    .awesome-psd-banner-content .icon-arrow {
         background-size: 20px 21px;
         width: 20px;
         height: 21px;
     }
 
-    .awesome_psd_banner_content {
+    .awesome-psd-banner-content {
         padding: 17% 8% 16% 8%;
     }
 
-    .rh_container .icon-arrow {
+    .rh-container .icon-arrow {
         background-size: 25px 32px;
         width: 16px;
         height: 26px;
     }
 
-    .rh_text {
+    .rh-text {
         font-size: 3vw;
         padding: 10% 0 10% 9%;
         width: 80%;
     }
 
-    .slider_box {
+    .slider-box {
         display: block;
     }
 
-    .slider_box li {
+    .slider-box li {
         display: block;
         width: auto;
         height: auto;
     }
 
-    .footer_info_head {
+    .footer-info-head {
         font-size: 5vw;
     }
 
-    .footer_info_block {
+    .footer-info-block {
         padding: 10% 10% 30% 12%;
     }
 
-    .footer_info_item {
+    .footer-info-item {
         line-height: 7vw;
         font-size: 4vw;
         padding-top: 8%;
@@ -390,16 +381,16 @@ body, .nav li a {
         float: left;
     }
 
-    .footer_text_block {
+    .footer-text-block {
         float: none;
         width: 100%;
     }
 
-    .slider_box {
+    .slider-box {
         display: block;
     }
 
-    .navigation_label {
+    .navigation-label {
         display: block;
     }
 
@@ -409,7 +400,7 @@ body, .nav li a {
         background-size: 19px 14px;
     }
 
-    .awesome_psd_banner_content {
+    .awesome-psd-banner-content {
         padding: 17% 8% 15% 9%;
     }
 
@@ -425,40 +416,40 @@ body, .nav li a {
         padding: 4% 4% 5% 4%;
     }
 
-    .awesome_psd_banner_content .icon-arrow {
+    .awesome-psd-banner-content .icon-arrow {
         background-size: 10px 10px;
         width: 10px;
         height: 10px;
         float: right;
     }
 
-    .rh_container .icon-arrow {
+    .rh-container .icon-arrow {
         background-size: 10px 15px;
         width: 10px;
         height: 15px;
     }
 
-    .rh_text {
+    .rh-text {
         font-size: 3vw;
         padding: 11% 0 10% 9%;
         width: 82%;
     }
 
-    .slider_box li {
+    .slider-box li {
         display: block;
         width: auto;
         height: auto;
     }
 
-    .footer_info_head {
+    .footer-info-head {
         font-size: 7vw;
     }
 
-    .footer_info_block {
+    .footer-info-block {
         padding: 10% 10% 30% 12%;
     }
 
-    .footer_info_item {
+    .footer-info-item {
         line-height: 7vw;
         font-size: 4vw;
         padding-top: 8%;
@@ -475,7 +466,7 @@ body, .nav li a {
         display: none;
     }
 
-    .navigation_label {
+    .navigation-label {
         display: none;
     }
 
@@ -494,13 +485,13 @@ body, .nav li a {
         margin-left: 15px;
     }
 
-    .awesome_psd_banner_content .icon-arrow {
+    .awesome-psd-banner-content .icon-arrow {
         background-size: 47px 28px;
         width: 28px;
         height: 39px;
     }
 
-    .awesome_psd_banner_content {
+    .awesome-psd-banner-content {
         padding: 187px 0 156px 82px;
         font-size: 68px;
         width: 722px;
@@ -511,39 +502,39 @@ body, .nav li a {
         padding-top: 35px;
     }
 
-    .rh_text {
+    .rh-text {
         font-size: 35px;
         padding: 102px 87px;
     }
 
-    .rh_container .icon-arrow {
+    .rh-container .icon-arrow {
         background-size: 50px 39px;
         width: 50px;
         height: 39px;
     }
 
-    .slider_box li {
+    .slider-box li {
         display: table-cell;
         width: 20%;
     }
 
-    .footer_info_head {
+    .footer-info-head {
         font-size: 33px;
     }
 
-    .footer_text_block {
+    .footer-text-block {
         float: left;
         width: 45%;
         padding: 0 37px 0 0;
     }
 
-    .footer_info_item {
+    .footer-info-item {
         font-size: 16px;
         line-height: 25px;
         padding: 18px 0 0 0;
     }
 
-    .footer_info_block {
+    .footer-info-block {
         padding: 45px 0 80px 83px;
     }
 }
