@@ -11,13 +11,18 @@ body, .nav li a {
     clear: both;
 }
 
-.icon-arrow {
+.icon-arrow,
+.icon-menu,
+.nav li
+{
     display: block;
+}
+
+.icon-arrow {
     background: url(../images/arrow.svg) no-repeat center;
 }
 
 .icon-menu {
-    display: block;
     background: url(../images/menu.svg) no-repeat center;
 }
 
@@ -45,7 +50,6 @@ body, .nav li a {
 
 .nav li {
     background-color: #373c3f;
-    display: block;
 }
 
 .nav li a {
@@ -139,16 +143,9 @@ body, .nav li a {
 /* !-------- End rules for footer ------------! */
 
 @media screen and (max-width: 1024px) {
+    .navigation-label,
+    #menu-nav,
     .page-head {
-        padding: 4% 2% 0 5%;
-        float: left;
-    }
-
-    .navigation-label {
-        display: none;
-    }
-
-    #menu-nav {
         display: none;
     }
 
@@ -171,6 +168,12 @@ body, .nav li a {
 
     .awesome-psd-banner-content {
         padding: 19% 8% 16% 8%;
+    }
+
+    .rh-text {
+        font-size: 3vw;
+        padding: 11% 0 10% 9%;
+        width: 79%;
     }
 
     .rh-container .icon-arrow {
@@ -211,39 +214,6 @@ body, .nav li a {
 }
 
 @media screen and (max-width: 980px) {
-    .slider-box li {
-        display: table-cell;
-        width: 20%;
-    }
-
-    .navigation-label {
-        display: none;
-    }
-
-    #menu-nav {
-        display: none;
-    }
-
-    .page-head {
-        display: none;
-        padding: 4% 3% 4% 5%;
-    }
-
-    .menu {
-        display: block;
-        font-size: 2vw;
-        padding: 4% 0 4% 4%;
-    }
-
-    .menu .nav li {
-        display: inline-block;
-        margin-left: 15px;
-    }
-
-    .slider-box {
-        display: table;
-    }
-
     .awesome-psd-banner-content .icon-arrow {
         background-size: 25px 30px;
         width: 22px;
@@ -254,34 +224,6 @@ body, .nav li a {
         padding: 18% 8% 16% 8%;
     }
 
-    .rh-text {
-        font-size: 3vw;
-        padding: 11% 0 10% 9%;
-        width: 79%;
-    }
-
-    .rh-container .icon-arrow {
-        background-size: 35px 35px;
-        width: 35px;
-        height: 35px;
-    }
-
-    .footer-info-head {
-        font-size: 3vw;
-    }
-
-    .footer-text-block {
-        float: left;
-        width: 45%;
-        padding: 0 5% 0 0;
-    }
-
-    .footer-info-item {
-        font-size: 15px;
-        line-height: 3vw;
-        width: 100%;
-    }
-
     .footer-info-block {
         padding: 6% 0 15% 8%;
     }
@@ -289,13 +231,19 @@ body, .nav li a {
 
 @media screen and (max-width: 640px) {
     .page-head {
-        display: block;
-        padding: 3% 0 2% 6%;
-        float: left;
+        display: table-cell;
+        float: none;
+        width: 100%;
+        vertical-align: middle;
     }
 
     .footer-text-block {
         float: none;
+        width: 100%;
+    }
+
+    .main-navbar {
+        display: table;
         width: 100%;
     }
 
@@ -310,20 +258,21 @@ body, .nav li a {
         background-size: 27px 31px;
     }
 
-    #menu-nav {
-        display: none;
-    }
-
+    #menu-nav,
     .menu {
         display: none;
     }
 
     #nav-button {
         padding: 4% 4% 5% 4%;
+        display: table-cell;
+        float: none;
+        vertical-align: middle;
     }
 
     .nav li {
         border-top: 1px solid #515151;
+        padding: 3% 5%;
     }
 
     .awesome-psd-banner-content .icon-arrow {
@@ -375,21 +324,7 @@ body, .nav li a {
 }
 
 @media screen and (max-width: 320px) {
-    .page-head {
-        display: block;
-        padding: 3% 0 2% 6%;
-        float: left;
-    }
-
-    .footer-text-block {
-        float: none;
-        width: 100%;
-    }
-
-    .slider-box {
-        display: block;
-    }
-
+    .slider-box,
     .navigation-label {
         display: block;
     }
@@ -402,18 +337,6 @@ body, .nav li a {
 
     .awesome-psd-banner-content {
         padding: 17% 8% 15% 9%;
-    }
-
-    #menu-nav {
-        display: none;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    #nav-button {
-        padding: 4% 4% 5% 4%;
     }
 
     .awesome-psd-banner-content .icon-arrow {
@@ -430,29 +353,12 @@ body, .nav li a {
     }
 
     .rh-text {
-        font-size: 3vw;
         padding: 11% 0 10% 9%;
         width: 82%;
     }
 
-    .slider-box li {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-
     .footer-info-head {
         font-size: 7vw;
-    }
-
-    .footer-info-block {
-        padding: 10% 10% 30% 12%;
-    }
-
-    .footer-info-item {
-        line-height: 7vw;
-        font-size: 4vw;
-        padding-top: 8%;
     }
 }
 
@@ -462,15 +368,9 @@ body, .nav li a {
         margin: 0 auto;
     }
 
+    .navigation-label,
+    #menu-nav,
     .page-head {
-        display: none;
-    }
-
-    .navigation-label {
-        display: none;
-    }
-
-    #menu-nav {
         display: none;
     }
 

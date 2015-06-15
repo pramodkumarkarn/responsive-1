@@ -1,6 +1,5 @@
 document.getElementById('nav-button').onclick = function (event) {
     event.preventDefault();
-    event.stopPropagation();
     var nav_panel = document.getElementById('menu-nav');
     if (nav_panel.className.indexOf('visible-menu') > -1) {
         nav_panel.style.display = 'none';

@@ -1,6 +1,7 @@
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 3
 });
+
 function sliderResize(slider) {
     if (screen.width <= 640) {
         slider.params.slidesPerView = 1;
@@ -10,6 +11,7 @@ function sliderResize(slider) {
         slider.update();
     }
 }
+
 sliderResize(swiper);
 window.onresize = function () {
     sliderResize(swiper);
