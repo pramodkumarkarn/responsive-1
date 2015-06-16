@@ -118,6 +118,10 @@ body, .nav li a {
     width: 100%;
     vertical-align: middle;
 }
+
+.swiper-pagination-bullet {
+    border: 1px solid #fff;
+}
 /* !-------- End rules for slider box ------------! */
 
 /*-------------- Rules for footer ---------------*/
@@ -196,20 +200,24 @@ body, .nav li a {
     }
 
     .footer-info-content {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
         overflow: hidden;
         padding: 40px 30px 80px 30px;
     }
 
-    .footer-info-block {
-        padding: 5% 8% 15% 8%;
+    .footer-info-content {
+        overflow: hidden;
+        padding: 40px 30px 80px 30px;
     }
 
     .footer-info-item {
         width: 45%;
-        padding: 0 0 0 10%;
+        float: left;
+        margin-bottom: -99999px;
+        padding: 0 0 99999px 9%;
+    }
+
+    .footer-info-block {
+        padding: 5% 8% 15% 8%;
     }
 
     .footer-info-item:nth-child(1) {
@@ -343,6 +351,7 @@ body, .nav li a {
         float: none;
         padding: 10% 0 0 0;
         border: none;
+        margin: 0;
     }
 
     .footer-info-block {
@@ -450,16 +459,15 @@ body, .nav li a {
     }
 
     .footer-info-content {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
         overflow: hidden;
         padding: 40px 30px 80px 30px;
     }
 
     .footer-info-item {
         width: 45%;
-        padding: 0 0 0 70px;
+        float: left;
+        margin-bottom: -99999px;
+        padding: 0 0 99999px 70px;
     }
 
     .footer-info-item:nth-child(1) {
