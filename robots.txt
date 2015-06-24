@@ -1,0 +1,8 @@
+ User-agent: *
+ Sitemap: http://psd.responsive.com/sitemap.xml
+
+ User-agent: googlebot
+ Disallow: /css/
+
+ User-agent: Yandex
+ Disallow: blog.html
