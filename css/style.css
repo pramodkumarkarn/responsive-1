@@ -13,8 +13,7 @@ body, .nav li a {
 
 .icon-arrow,
 .icon-menu,
-.nav li
-{
+.nav li {
     display: block;
 }
 
@@ -67,6 +66,7 @@ body, .nav li a {
     font-size: 4vw;
     padding-top: 6%;
 }
+
 /*!-------- End rules for header/menu ------------!*/
 
 /*-------------- Rules for awesome psd banner ---------------*/
@@ -80,6 +80,7 @@ body, .nav li a {
     font-size: 5.9vw;
     padding: 18% 8% 18% 8%;
 }
+
 /*!-------- End rules for awesome psd banner ------------!*/
 
 /*-------------- Rules for Robin Hood block ---------------*/
@@ -111,6 +112,7 @@ body, .nav li a {
 .rh-container .icon-arrow {
     display: inline-block;
 }
+
 /* !-------- End rules for Robin Hood block ------------! */
 
 /*-------------- Rules for slider box ---------------*/
