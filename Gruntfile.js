@@ -3,34 +3,36 @@ module.exports = function (grunt) {
     grunt.registerTask('watch', [ 'watch' ]);
 
     grunt.initConfig({
-        watch: {
-            js: {
-                files: ['js/*.js'],
-                options: {
-                    livereload: true
-                }
+        'watch': {
+            'js': {
+                'files': ['js/*.js'],
+                'options': {
+                    'spawn': false
+                },
+                'tasks': ['uglify']
             },
-            css: {
-                files: ['css/*.css'],
-                options: {
-                    livereload: true
-                }
+            'css': {
+                'files': ['css/*.css'],
+                'options': {
+                    'spawn': false
+                },
+                'tasks': ['cssmin']
             }
         },
         'uglify': {
             'js': {
-                'src': ['js/script.js'],
+                'src': ['js/*.js', '!*.min.js'],
                 'dest': 'js/script.min.js'
             }
         },
         'cssmin': {
-            target: {
-                files: [{
-                    expand: true,
-                    cwd: 'css',
-                    src: ['*.css', '!*.min.css'],
-                    dest: 'css',
-                    ext: '.min.css'
+            'target': {
+                'files': [{
+                    'expand': true,
+                    'cwd': 'css',
+                    'src': ['*.css', '!*.min.css'],
+                    'dest': 'css/',
+                    'ext': '.min.css'
                 }]
             }
         }
